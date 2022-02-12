@@ -42,7 +42,7 @@ The code has three-level architecture: data access, logic, and representation le
 * The data access level is responsible for the interaction with a database using Entity Framework and LINQ. At this moment MS SQL server is used but you can easily switch to another SQL server by installing a specific NuGet package and changing the default connection string.
 * Logic level is responsible for the business logic of the API. At this level, you can define any custom logic that fits your needs. This level is also responsible for setting requirements for the data format used during model validation. Some tests for the basic functionality of this level are present in the `Logic_Tests` project
 * Representation level defines API structure and which data and how data sent to a user
-## How to add new fileds to the entites
+## How to add new fields to the entities
 There are two main files that define object structure:
 * `\Projects_And_Tasks\DataAccess\Entities\[Base.cs, Project.cs, ProjectTask.cs]` - These three files defines the object structure that is used in the database
 * `\Projects_And_Tasks\Logic\Model\[ProjectModel.cs, ProjectTaskModel.cs]` - These files define the structure of the object that is visible to the user and also responsible for defining data validation rules
