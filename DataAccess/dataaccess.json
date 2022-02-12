@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=DESKTOP-MNGD11O\\SQLEXPRESS;Database=TestQwerty2;Trusted_Connection=True;MultipleActiveResultSets=true"
+  }
+}
