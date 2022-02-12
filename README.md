@@ -9,7 +9,7 @@ http://188.186.68.82:5000/swagger/index.html
 * Ability to view all tasks in the project
 
 ## Setting up project
-Release for Win-x64 uploaded to GitHub
+Release for Win-x64 and Linux-x64 uploaded to GitHub
 ### From source
 0. Install corresponding NuGet package for Entity Framework in the DataAccess project if planning to use other than MS SQL Server database
 1. Restore packages by using `dotnet restore`
